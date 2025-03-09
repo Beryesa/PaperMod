@@ -20,4 +20,6 @@ weight = 30
 [module]
   [module.hugoVersion]
     extended = false
-    min = "0.116.0"
+    min = "0.125.7"
+  [[module.imports]]
+    path = 'github.com/adityatelange/hugo-PaperMod'
