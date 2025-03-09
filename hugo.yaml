@@ -1,0 +1,22 @@
+baseURL: https://example.org/
+languageCode: en-US
+title: PaperFE Example Site
+theme:
+  - github.com/adityatelange/hugo-PaperMod
+menus:
+  main:
+    - name: Home
+      pageRef: /
+      weight: 10
+    - name: Posts
+      pageRef: /posts
+      weight: 20
+    - name: Tags
+      pageRef: /tags
+      weight: 30
+module:
+  hugoVersion:
+    extended: false
+    min: 0.125.7
+  imports:
+    - path: github.com/adityatelange/hugo-PaperMod
