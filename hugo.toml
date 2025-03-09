@@ -1,6 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-US'
-title = 'My New Hugo Site'
+title = 'PaperFE Example Site'
+theme = ['github.com/adityatelange/hugo-PaperMod']
 
 [[menus.main]]
 name = 'Home'
