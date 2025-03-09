@@ -1,9 +1,8 @@
 # If your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would
 # contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-baseURL: "https://adityatelange.github.io/hugo-PaperMod/"
-title: PaperMod
+baseURL: "https://beryesa.github.io/PaperFE/"
+title: PaperFE
 copyright: "© [PaperMod Contributors](https://github.com/adityatelange/hugo-PaperMod/graphs/contributors)"
-paginate: 5
 theme: [github.com/Beryesa/PaperFE]
 
 enableInlineShortcodes: true
@@ -14,6 +13,11 @@ buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
 mainsections: ["posts", "papermod"]
+pagination:
+  disableAliases: false
+  pagerSize: 10
+  path: page
+
 
 minify:
   disableXML: true
