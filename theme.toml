@@ -1,31 +1,62 @@
-name = 'Theme name'
+name = 'PaperFE'
 license = 'MIT'
-licenselink = 'https://github.com/owner/repo/LICENSE'
-description = 'Theme description'
+licenselink = 'https://github.com/Beryesa/PaperFE/LICENSE'
+description = 'Paper Fabulously Extended, based on the awesome PaperMod'
+min_version = "0.125.7"
 
 # The home page of the theme, where the source can be found
-homepage = 'https://github.com/owner/repo'
+homepage = 'https://github.com/Beryesa/PaperFE'
 
 # If you have a running demo of the theme
-demosite = 'https://owner.github.io/repo'
+# demosite = 'https://owner.github.io/repo'
 
 # Taxonomy terms
-tags = ['blog', 'company']
-features = ['some', 'awesome', 'features']
+tags = [
+  "responsive",
+  "simple",
+  "clean",
+  "light",
+  "dark",
+  "blog",
+  "minimalist",
+  "highlight.js",
+  "search",
+  "multilingual"
+]
+features = [
+  "responsive",
+  "single-column",
+  "blog",
+  "cover-image",
+  "table-of-contents",
+  "opengraph",
+  "highlight.js",
+  "favicon",
+  "archive",
+  "share-icons",
+  "cover",
+  "multilingual",
+  "social-icons",
+  "minified-assets",
+  "theme-toggle",
+  "menu-location-indicator",
+  "scroll-to-top",
+  "search"
+]
 
 # If the theme has multiple authors
-authors = [
-  {name = 'Name of author', homepage = 'Website of author'},
-  {name = 'Name of author', homepage = 'Website of author'}
-]
+# authors = [
+#   {name = 'Name of author', homepage = 'Website of author'},
+#   {name = 'Name of author', homepage = 'Website of author'}
+# ]
 
 # If the theme has a single author
 [author]
-  name = 'Your name'
-  homepage = 'Your website'
+name = 'Beryesa'
+homepage = 'https://beryesa.com/'
 
 # If porting an existing theme
 [original]
-  author = 'Name of original author'
-  homepage = 'Website of original author'
-  repo = 'https://github.com/owner/repo'
+author = 'Aditya Telange'
+homepage = 'https://adityatelange.github.io/hugo-PaperMod/'
+repo = 'https://github.com/adityatelange/hugo-PaperMod/'
